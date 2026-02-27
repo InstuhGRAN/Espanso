@@ -123,13 +123,17 @@ matches:
   - trigger: "!dm"
     replace: "In your DMs!"
   - trigger: "!qual"
-    replace: |
-      Hi #{input:First Name},
-      I noticed you booked a call #{input:Date and Time of Call}. Sharing more information to ensure the call is the best use of your time.
+    form: |
+      Hi [[Name]],
+      
+      I noticed you booked a call [[Time]]. Sharing more information to ensure the call is the best use of your time.
+      
       Our GrowthAssistants are $3,500 - $4,000 USD/month. We handle the entire recruitment process, including final interview and candidate selection, on your behalf. The sourcing timeline is 2-4 weeks from collecting billing.
+      
       Here is a one-sheeter summarizing our service and core roles. Note, we do not offer part-time assistants; all of our GAs are full-time, working in your time zone.
+      
       Let us know if this is a fit for what you're looking for!
-
+  
   - trigger: "/ah"
     replace: |
       Jesse DM
@@ -142,8 +146,8 @@ matches:
       Thanks!
       jesse
   - trigger: "/deck"
-    replace: |
-      Hey #{input:First Name},
+    form: |
+      Hey [[Name]],
       Here’s the guide I mentioned: https://tally.so/r/vGMZ5D
       Give it a skim and tell me which part stands out most!
       – Adriane"
@@ -151,7 +155,7 @@ matches:
     replace: "Here's the link: https://growthassistant.com/lp/ai-influencer-brand-safety-checker"
   - trigger: "/efu"
     replace: |
-      Hi #{input:First name},
+      Hi [[Name]],
 
       Thought you might appreciate this delegation handbook which shares a list of tasks companies should delegate to fuel growth and boost productivity.
 
@@ -162,8 +166,8 @@ matches:
       Thanks,
     
   - trigger: "/fup"
-    replace: |
-      Hey #{input:First name} - quick follow-up here in case email got buried.
+    form: |
+      Hey [[Name]] - quick follow-up here in case email got buried.
 
       I sent over the AI design workflow and a note about a few designers coming out of that program. If it’s useful, I’m happy to share more context on how teams are hiring these as full-time roles."
     
@@ -187,12 +191,12 @@ matches:
       cc @jill @achint @lyza @matthew @dean"
     
   - trigger: "/li"
-    replace: |
-      Hey #{input:Name},
+    form: |
+      Hi [[Name]],
 
-      Thanks for #{input:commenting/engaging/reacting}.
+      Thanks for commenting/engaging/reacting.
 
-      My team at GrowthAssistant thinks #{input:company name} is a great fit for global talent.
+      My team at GrowthAssistant thinks [[Company]] is a great fit for global talent.
 
       We help hundreds of marketing teams build global talent teams. Clients include DoorDash, HubSpot, quip, and Ruggable. 
 
@@ -232,8 +236,8 @@ matches:
       jesse 
     
   - trigger: "/tally"
-    replace: |
-      Hey #{input:Name},
+    form: |
+      Hey [[Name]],
 
       Here's the link to the tool: https://growthassistant.com/lp/ai-influencer-brand-safety-checker
 
