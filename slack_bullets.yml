@@ -1,0 +1,14 @@
+# This file lives in your 'match' folder
+matches:
+  - trigger: "- "
+    replace: "{{keys}}"
+    vars:
+      - name: keys
+        type: shell
+        params:
+          cmd: |
+            if [[ "$OSTYPE" == "darwin"* ]]; then
+              osascript -e 'tell application "System Events" to keystroke "8" using {command down, shift down}'
+            else
+              powershell.exe -command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.SendKeys]::SendWait('^+8')"
+            fi

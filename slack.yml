@@ -1,0 +1,5 @@
+# This file goes in your 'config' folder
+filter_title: "Slack"
+
+extra_includes:
+  - "../match/slack_bullets.yml"
