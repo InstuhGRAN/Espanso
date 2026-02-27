@@ -1,0 +1,254 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+
+  - trigger: ";docs"
+    replace: "[{Project Docs}]({https://docs.example.com})"
+
+  # WithCoverage
+
+  - trigger: "!bor"
+    replace: "Process signed BOR letter"
+  - trigger: "/aut"
+    replace: "Auto Policy"
+  - trigger: "/bop"
+    replace: "Business Owners Policy"
+  - trigger: "/bor"
+    replace: "signed their Client Agreement + Broker of Record Letter. Are we cleared to process the BOR?"
+  - trigger: "/ca"
+    replace: |
+      :white_check_mark: Files saved in admin
+      :white_check_mark: Signed Client Agreement proposal created
+      :white_check_mark: Post-signed CA+BOR template drafted
+      • Pending approval if we're cleared to process
+  - trigger: "/complete"
+    replace: "We have everything we need for dashboard creation and risk analysis draft. Tasks created."
+  - trigger: "/cpkg"
+    replace: "Commercial Package Policy"
+  - trigger: "/cri"
+    replace: "Crime Policy"
+  - trigger: "/cyb"
+    replace: "Cyber Policy"
+  - trigger: "/db"
+    replace: "Dashboard Creation"
+  - trigger: "/dir"
+    replace: "Directors & Officers Policy"
+  - trigger: "/disben"
+    replace: "Disability Benefits Policy"
+  - trigger: "/eo"
+    replace: "Errors & Omissions Policy"
+  - trigger: "/epli"
+    replace: "Employment Practices Liability Policy"
+  - trigger: "/gl"
+    replace: "General Liability Policy"
+  - trigger: "/im"
+    replace: "Inland Marine Policy"
+  - trigger: "/intl"
+    replace: "International Package Policy"
+  - trigger: "/ll"
+    replace: "Liquor Liability Policy"
+  - trigger: "/mgmt"
+    replace: "Management Liability Policy"
+  - trigger: "/pre"
+    replace: "Product Recall Policy"
+  - trigger: "/prof"
+    replace: "Professional Liability Policy"
+  - trigger: "/prop"
+    replace: "Property Policy"
+  - trigger: "/ra"
+    replace: "Draft RA"
+  - trigger: "/stp"
+    replace: "Stock Throughput Policy"
+  - trigger: "/ub"
+    replace: "Update Dashboard"
+  - trigger: "/umb"
+    replace: "Umbrella Liability Policy"
+  - trigger: "/upload"
+    replace: |
+      Hi,
+
+      uploaded the following files:
+
+      ---
+
+      What's missing / need to request:
+
+      Tasks created for dashboard creation and risk analysis draft.
+      cc:
+    
+  - trigger: "/ur"
+    replace: "Update RA"
+  - trigger: "/wc"
+    replace: "Workers Compensation Policy"
+  - trigger: "/xs"
+    replace: "Excess Liability Policy"
+
+#GrowthAssistant
+
+  - trigger: "!dm"
+    replace: "In your DMs!"
+  - trigger: "!qual"
+    replace: |
+      Hi #{input:First Name},
+      I noticed you booked a call #{input:Date and Time of Call}. Sharing more information to ensure the call is the best use of your time.
+      Our GrowthAssistants are $3,500 - $4,000 USD/month. We handle the entire recruitment process, including final interview and candidate selection, on your behalf. The sourcing timeline is 2-4 weeks from collecting billing.
+      Here is a one-sheeter summarizing our service and core roles. Note, we do not offer part-time assistants; all of our GAs are full-time, working in your time zone.
+      Let us know if this is a fit for what you're looking for!
+
+  - trigger: "/ah"
+    replace: |
+      Jesse DM
+      -------------------------
+  - trigger: "/asara"
+    replace: |
+      [name] - moving our conversation here from [X / LinkedIn].
+      Please meet Sara, one of our Growth experts, also cc-ed here. She’ll get you squared away with a team of GrowthAssistants.
+      Sara, can you share your availability for a call with [name]?
+      Thanks!
+      jesse
+  - trigger: "/deck"
+    replace: |
+      Hey #{input:First Name},
+      Here’s the guide I mentioned: https://tally.so/r/vGMZ5D
+      Give it a skim and tell me which part stands out most!
+      – Adriane"
+  - trigger: "/dm"
+    replace: "Here's the link: https://growthassistant.com/lp/ai-influencer-brand-safety-checker"
+  - trigger: "/efu"
+    replace: |
+      Hi #{input:First name},
+
+      Thought you might appreciate this delegation handbook which shares a list of tasks companies should delegate to fuel growth and boost productivity.
+
+      I’d love to chat and explore ways to supercharge your biz!
+
+      What’s the best way for me to get 30 minutes on your calendar?
+
+      Thanks,
+    
+  - trigger: "/fup"
+    replace: |
+      Hey #{input:First name} - quick follow-up here in case email got buried.
+
+      I sent over the AI design workflow and a note about a few designers coming out of that program. If it’s useful, I’m happy to share more context on how teams are hiring these as full-time roles."
+    
+  - trigger: "/icp"
+    replace: |
+      Hi @sara,
+
+      This is .
+
+      -#{key:space}HubSpot - 
+      LinkedIn - 
+      Role: 
+      Company LinkedIn - 
+
+      Lead is based in 
+      Company is based in 
+      EEs
+      in revenue
+      Lead Source:
+
+      cc @jill @achint @lyza @matthew @dean"
+    
+  - trigger: "/li"
+    replace: |
+      Hey #{input:Name},
+
+      Thanks for #{input:commenting/engaging/reacting}.
+
+      My team at GrowthAssistant thinks #{input:company name} is a great fit for global talent.
+
+      We help hundreds of marketing teams build global talent teams. Clients include DoorDash, HubSpot, quip, and Ruggable. 
+
+      The most common roles are campaign management/reporting, design/creative, and influencer outreach.
+
+      Mind if I introduce you? What's the best email?
+
+      jesse
+    
+  - trigger: "/nf"
+    replace: |
+      not fit
+      non ICP
+      <10 EEs
+      no reported revenue
+      no funding
+    
+  - trigger: "/sara"
+    replace: |
+      Thanks, Jesse!
+
+      Hey [name]! Nice to e-meet you!
+
+      Looking forward to connecting and seeing how we might be able to help. Here are a few times that work on our end next week:
+
+      Day, Date:
+      • 
+      • 
+      • 
+
+      Or, if it's easier, you can grab a time below:
+
+      Meet with Sara
+
+      Chat soon!
+      
+      jesse 
+    
+  - trigger: "/tally"
+    replace: |
+      Hey #{input:Name},
+
+      Here's the link to the tool: https://growthassistant.com/lp/ai-influencer-brand-safety-checker
+
+      Let me know if it works!
+
+      jesse
+    
+  - trigger: "/tfu"
+    replace: ", bumping my note above. Is there someone on your team I can introduce the GrowthAssistant folks to? Thanks!"
+  - trigger: "/tw"
+    replace: |
+      Hi [name]! Thanks for following! Interesting stuff you’re building at [company name]. 
+
+      Have you checked @GrowthAssistant yet? Hundreds of companies including [companies with the same field] are taking advantage of embedding offshore talent to handle rote tasks for sales, marketing, growth, design, CS, and more. 
+
+      Would be awesome to connect you to GA’s sales team. Worth exploring?"
+  
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
