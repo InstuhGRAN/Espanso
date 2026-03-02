@@ -49,7 +49,7 @@ matches:
   - trigger: "/bop"
     replace: "Business Owners Policy"
   - trigger: "/bor"
-    replace: "signed their Client Agreement + Broker of Record Letter. Are we cleared to process the BOR?"
+    replace: "Please save + switch policy to new business"
   - trigger: "/ca"
     replace: |
       :white_check_mark: Files saved in admin
