@@ -152,7 +152,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Here's the link: https://growthassistant.com/lp/ai-influencer-brand-safety-checker"
+    replace: "Here's the link: https://growthassistant.com/lp/33x-influencer-marketing-mini-course"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -238,10 +238,10 @@ matches:
   - trigger: "/tally"
     form: |
       Hey [[Name]],
+    
+      Here’s the guide I promised: https://growthassistant.com/lp/33x-influencer-marketing-mini-course
 
-      Here's the link to the tool: https://growthassistant.com/lp/ai-influencer-brand-safety-checker
-
-      Let me know if it works!
+      What prompted your interest? I’m guessing you’re scaling your own influencer program and want to learn from the best. Hear from our team what's working. When suits?
 
       jesse
     
