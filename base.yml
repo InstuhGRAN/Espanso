@@ -152,7 +152,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Here's the link: https://growthassistant.com/lp/33x-influencer-marketing-mini-course"
+    replace: "Here's the link: https://growth-assistants.webflow.io/lp/generate-4m-with-these-viral-hooks"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -239,9 +239,9 @@ matches:
     form: |
       Hey [[Name]],
     
-      Here’s the guide I promised: https://growthassistant.com/lp/33x-influencer-marketing-mini-course
+      Here’s the guide I promised: https://growth-assistants.webflow.io/lp/generate-4m-with-these-viral-hooks
 
-      What prompted your interest? I’m guessing you’re scaling your own influencer program and want to learn from the best. Hear from our team what's working. When suits?
+      What got you interested? Let me guess. You’re scaling organic social and want to see what’s working for us. Hear from our team on how we operate it. When suits?
 
       jesse
     
