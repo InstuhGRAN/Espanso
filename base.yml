@@ -40,6 +40,15 @@ matches:
   - trigger: ";docs"
     replace: "[{Project Docs}]({https://docs.example.com})"
 
+  - trigger: "/aschwager"
+    replace: "vecqH%z^b!rdSP$HrJQqScxsZt5CR!3%F#zkT"
+
+  - trigger: "/jpujji"
+    replace: "wTP7LNso#5!K3q%h"
+
+  - trigger: "/sbaldwin"
+    replace: "4C%ljU63SWU7yW%M"
+
   # WithCoverage
 
   - trigger: "!bor"
