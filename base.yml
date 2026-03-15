@@ -182,7 +182,7 @@ matches:
     
   - trigger: "/icp"
     replace: |
-      Hi @sara,
+      Hi @sarabaldwin,
 
       This is .
 
