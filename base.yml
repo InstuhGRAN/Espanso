@@ -197,7 +197,7 @@ matches:
       in revenue
       Lead Source:
 
-      cc @jill @achint @lyza @matthew @dean
+      cc @jill @lyza @matthew @dean
     
   - trigger: "/li"
     form: |
