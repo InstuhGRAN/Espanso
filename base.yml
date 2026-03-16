@@ -152,7 +152,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Here's the link: https://growth-assistants.webflow.io/lp/generate-4m-with-these-viral-hooks"
+    replace: "Here's the link: https://growthassistant.com/lp/the-tool-stack-that-scales-at-ai-speed"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -188,7 +188,7 @@ matches:
       in revenue
       Lead Source:
 
-      cc @jill @achint @lyza @matthew @dean
+      cc @jill @lyza @matthew @dean
     
   - trigger: "/li"
     form: |
@@ -239,9 +239,9 @@ matches:
     form: |
       Hey [[Name]],
     
-      Here’s the guide I promised: https://growth-assistants.webflow.io/lp/generate-4m-with-these-viral-hooks
+      Here’s the link to the guide: https://growthassistant.com/lp/the-tool-stack-that-scales-at-ai-speed
 
-      What got you interested? Let me guess. You’re scaling organic social and want to see what’s working for us. Hear from our team on how we operate it. When suits?
+      Let me know what you think! Interested in hearing from my team how they're using it? When's the best time for a call?
 
       jesse
     
