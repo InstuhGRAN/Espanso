@@ -161,7 +161,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Here's the link: https://growthassistant.com/lp/the-tool-stack-that-scales-at-ai-speed"
+    replace: "Here's the link: https://growthassistant.com/lp/the-mutual-intro-playbook-to-25m-arr"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -248,9 +248,9 @@ matches:
     form: |
       Hey [[Name]],
     
-      Here’s the link to the guide: https://growthassistant.com/lp/the-tool-stack-that-scales-at-ai-speed
+      Thanks for commenting! You can grab the guide here: 
 
-      Let me know what you think! Interested in hearing from my team how they're using it? When's the best time for a call?
+      https://growthassistant.com/lp/the-mutual-intro-playbook-to-25m-arr
 
       jesse
     
