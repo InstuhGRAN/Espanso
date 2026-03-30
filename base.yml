@@ -122,6 +122,8 @@ matches:
     
   - trigger: "/ur"
     replace: "Update RA"
+  - trigger: "/ref"
+    replace: "MNL13003260102"
   - trigger: "/wc"
     replace: "Workers Compensation Policy"
   - trigger: "/xs"
