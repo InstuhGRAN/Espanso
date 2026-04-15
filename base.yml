@@ -163,7 +163,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Here's the link: https://growthassistant.com/lp/the-mutual-intro-playbook-to-25m-arr"
+    replace: "Hyg: https://growthassistant.com/lp/the-marketing-sprint-template-to-ship-more"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -250,9 +250,9 @@ matches:
     form: |
       Hey [[Name]],
     
-      Thanks for commenting! You can grab the guide here: 
+      Here’s the sprint template: https://growthassistant.com/lp/the-marketing-sprint-template-to-ship-more
 
-      https://growthassistant.com/lp/the-mutual-intro-playbook-to-25m-arr
+      Let me know if it helps!
 
       jesse
     
