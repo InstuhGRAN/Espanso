@@ -248,9 +248,7 @@ matches:
     
   - trigger: "/tally"
     form: |
-      Hey [[Name]],
-    
-      Here’s the sprint template: https://growthassistant.com/lp/the-marketing-sprint-template-to-ship-more
+      Here’s the link to the onboarding guide: https://tally.so/r/VL1Gyg
 
       Let me know if it helps!
 
