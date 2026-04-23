@@ -163,7 +163,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Hyg: https://growthassistant.com/lp/the-marketing-sprint-template-to-ship-more"
+    replace: "Hyg: https://tally.so/r/eqxVx0"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -248,9 +248,11 @@ matches:
     
   - trigger: "/tally"
     form: |
-      Here’s the link to the onboarding guide: https://tally.so/r/VL1Gyg
+      Hey [[name]],
+      
+      Here’s the guide I promised: https://tally.so/r/eqxVx0
 
-      Let me know if it helps!
+      Let me know what you think!
 
       jesse
     
