@@ -163,7 +163,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Hyg: https://tally.so/r/eqxVx0"
+    replace: "Hyg: https://growthassistant.com/lp/the-recipe-to-scaling-with-ugc"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -250,9 +250,9 @@ matches:
     form: |
       Hey [[name]],
       
-      Here’s the guide I promised: https://tally.so/r/eqxVx0
+      Here’s the UGC Masterclass: https://growthassistant.com/lp/the-recipe-to-scaling-with-ugc
 
-      Let me know what you think!
+      Let me know if it’s helpful.
 
       jesse
     
