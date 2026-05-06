@@ -163,7 +163,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Hyg: https://growthassistant.com/lp/the-recipe-to-scaling-with-ugc"
+    replace: "Hyg: https://growthassistant.com/lp/the-ultimate-d2c-org-design-guide"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
