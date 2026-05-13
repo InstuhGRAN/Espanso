@@ -163,7 +163,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Hyg: https://growthassistant.com/lp/the-ultimate-d2c-org-design-guide"
+    replace: "Here you go: http://growthassistant.com/lp/claude-for-marketers"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -250,7 +250,7 @@ matches:
     form: |
       Hey [[name]],
       
-      Here’s the org design guide: https://growthassistant.com/lp/the-ultimate-d2c-org-design-guide
+      Here’s the link to the form to download the guide: http://growthassistant.com/lp/claude-for-marketers
 
       Let me know if it helps!
 
