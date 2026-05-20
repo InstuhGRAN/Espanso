@@ -163,7 +163,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Here you go: http://growthassistant.com/lp/claude-for-marketers"
+    replace: "Here you go: https://growthassistant.com/lp/meeting-teaser-to-close-deals-without-a-deck"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -250,7 +250,7 @@ matches:
     form: |
       Hey [[name]],
       
-      Here’s the Claude for Marketer’s Guide: http://growthassistant.com/lp/claude-for-marketers
+      Here’s the link to grab the guide- https://growthassistant.com/lp/meeting-teaser-to-close-deals-without-a-deck
 
       Let me know what you think!
 
