@@ -163,7 +163,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Here you go: http://growthassistant.com/lp/claude-for-marketers"
+    replace: "Here you go: https://tinyurl.com/3xs693ba"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -250,9 +250,9 @@ matches:
     form: |
       Hey [[name]],
       
-      Here’s the link to the form to download the guide: http://growthassistant.com/lp/claude-for-marketers
+      Here’s the link to the AI prompt grader: https://tinyurl.com/3xs693ba
 
-      Let me know if it helps!
+      It’s built on the same training every marketer on my team receives! Let me know what you think. 
 
       jesse
     
