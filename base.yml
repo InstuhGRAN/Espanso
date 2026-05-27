@@ -265,5 +265,10 @@ matches:
       Have you checked @GrowthAssistant yet? Hundreds of companies including [companies with the same field] are taking advantage of embedding offshore talent to handle rote tasks for sales, marketing, growth, design, CS, and more. 
 
       Would be awesome to connect you to GA’s sales team. Worth exploring?"
+  - trigger: "/prospect"
+    form: |
+      Hey [[Name]] - did my email from last week make it through? Would love to connect you to Jill. Thanks!
+
+      jesse
   
   # And much more! For more information, visit the docs: https://espanso.org/docs/
