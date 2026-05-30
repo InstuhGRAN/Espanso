@@ -149,13 +149,24 @@ matches:
     replace: |
       Jesse DM
       -------------------------
-  - trigger: "/asara"
-    replace: |
-      [name] - moving our conversation here from [X / LinkedIn].
+  - trigger: "!asara"
+    form: |
+      [[name]] - moving our conversation here from [[platform]].
+
       Please meet Sara, one of our Growth experts, also cc-ed here. She’ll get you squared away with a team of GrowthAssistants.
-      Sara, can you share your availability for a call with [name]?
+
+      Sara, can you share your availability for a call with [[name]]?
+
       Thanks!
+
       jesse
+    form_fields:
+      platform:
+        type: choice
+        default: LinkedIn
+        values:
+          - X
+          - LinkedIn
   - trigger: "/deck"
     form: |
       Hey [[Name]],
@@ -203,11 +214,11 @@ matches:
     
   - trigger: "/li"
     form: |
-      Hi [[Name]],
+      Hi [[name]],
 
-      Thanks for commenting/engaging/reacting.
+      Thanks for [[action]] my recent post.
 
-      My team at GrowthAssistant thinks [[Company]] is a great fit for global talent.
+      My team at GrowthAssistant thinks [[company]] is a great fit for global talent.
 
       We help hundreds of marketing teams build global talent teams. Clients include DoorDash, HubSpot, quip, and Ruggable. 
 
@@ -216,7 +227,16 @@ matches:
       Mind if I introduce you? What's the best email?
 
       jesse
-    
+    form_fields:
+      action:
+        type: choice
+        default: commenting on
+        values:
+          - liking
+          - commenting on
+          - sharing
+          - engaging with
+          - reacting to    
   - trigger: "/nf"
     replace: |
       not fit
@@ -225,26 +245,19 @@ matches:
       no reported revenue
       no funding
     
-  - trigger: "/sara"
-    replace: |
+  - trigger: "!sara"
+    form: |
       Thanks, Jesse!
 
-      Hey [name]! Nice to e-meet you!
+      Hey [[name]]! Nice to e-meet you!
 
       Looking forward to connecting and seeing how we might be able to help. Here are a few times that work on our end next week:
-
-      Day, Date:
-      • 
-      • 
-      • 
 
       Or, if it's easier, you can grab a time below:
 
       Meet with Sara
 
-      Chat soon!
-      
-      jesse 
+      Chat soon! 
     
   - trigger: "/tally"
     form: |
