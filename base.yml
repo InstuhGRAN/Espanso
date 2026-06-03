@@ -174,7 +174,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Here you go: https://tinyurl.com/3xs693ba"
+    replace: "Here you go: http://growthassistant.com/lp/the-2026-ugc-cheat-code"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -263,9 +263,7 @@ matches:
     form: |
       Hey [[name]],
       
-      Here’s the link to the AI prompt grader: https://tinyurl.com/3xs693ba
-
-      It’s built on the same training every marketer on my team receives! Let me know what you think. 
+      Here’s the link to grab the skill - http://growthassistant.com/lp/the-2026-ugc-cheat-code
 
       jesse
     
