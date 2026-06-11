@@ -174,7 +174,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Here you go: http://growthassistant.com/lp/the-2026-ugc-cheat-code"
+    replace: "Here you go: https://growthassistant.com/lp/the-marketer-onboarding-guide"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
@@ -263,7 +263,7 @@ matches:
     form: |
       Hey [[name]],
       
-      Here’s the link to get the onboarding guide - https://growthassistant.com/lp/the-marketer-onboarding-guide 
+      Here’s the link to get the onboarding guide - https://growthassistant.com/lp/the-marketer-onboarding-guide
 
       Let me know what you think!
       
