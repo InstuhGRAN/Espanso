@@ -283,5 +283,14 @@ matches:
       Hey [[Name]] - did my email from last week make it through? Would love to connect you to Jill. Thanks!
 
       jesse
+
+  - trigger: "/web"
+    form: |
+      Hi [[First Name]],
+      
+      A while back, my team shared our UGC playbook. Next week, we’re going deeper in a live session. I'm pulling in a handful of people that I think would get the most value out of this. You down?
+
+      jesse
+
   
   # And much more! For more information, visit the docs: https://espanso.org/docs/
