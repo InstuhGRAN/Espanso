@@ -286,7 +286,7 @@ matches:
 
   - trigger: "/web"
     form: |
-      Hi [[First Name]],
+      Hi [[Name]],
       
       A while back, my team shared our UGC playbook. Next week, we’re going deeper in a live session. I'm pulling in a handful of people that I think would get the most value out of this. You down?
 
