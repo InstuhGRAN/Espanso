@@ -174,7 +174,7 @@ matches:
       Give it a skim and tell me which part stands out most!
       – Adriane"
   - trigger: "/dm"
-    replace: "Here you go: https://growthassistant.com/lp/the-marketer-onboarding-guide"
+    replace: "Here you go: https://growthassistant.com/lp/scaling-with-ugc-guide"
   - trigger: "/efu"
     replace: |
       Hi [[Name]],
