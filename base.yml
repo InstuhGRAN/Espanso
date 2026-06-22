@@ -211,7 +211,10 @@ matches:
       Lead Source:
 
       cc @jill @lyza @matthew @dean
-    
+  
+  - trigger: "jesse"
+    form: |
+      (Jesse isn't connected)
   - trigger: "/li"
     form: |
       Hi [[name]],
