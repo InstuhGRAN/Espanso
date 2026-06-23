@@ -195,13 +195,13 @@ matches:
     
   - trigger: "/icp"
     form: |
-      Hi [[name],
+      Hi [[name]],
 
       Are you free Thursday at 1pm EST?
 
       My team's hosting a UGC Live Session, based on the guide we sent last week. Going deep on the creative formula that's crushing and the growth hacks that convert.
 
-      I'm pulling in a handful of people that I think would get the most value out of this. You down? https://tinyurl.com/y4u9ftc7
+      I'm pulling in a handful of people that I think would get the most value out of this. You down? https://growthassistant.com/ugc-that-converts-webinar
 
       jesse
   
