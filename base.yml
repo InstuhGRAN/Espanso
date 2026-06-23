@@ -194,27 +194,17 @@ matches:
       I sent over the AI design workflow and a note about a few designers coming out of that program. If it’s useful, I’m happy to share more context on how teams are hiring these as full-time roles."
     
   - trigger: "/icp"
-    replace: |
-      Hi @sara,
-
-      This is .
-
-      HubSpot - 
-      LinkedIn - 
-      Role: 
-      Company LinkedIn - 
-
-      Lead is based in 
-      Company is based in 
-      EEs
-      in revenue
-      Lead Source:
-
-      cc @jill @lyza @matthew @dean
-  
-  - trigger: "jesse"
     form: |
-      (Jesse isn't connected)
+      Hi [[name],
+
+      Are you free Thursday at 1pm EST?
+
+      My team's hosting a UGC Live Session, based on the guide we sent last week. Going deep on the creative formula that's crushing and the growth hacks that convert.
+
+      I'm pulling in a handful of people that I think would get the most value out of this. You down? https://tinyurl.com/y4u9ftc7
+
+      jesse
+  
   - trigger: "/li"
     form: |
       Hi [[name]],
