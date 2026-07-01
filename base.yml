@@ -273,7 +273,7 @@ matches:
       Would be awesome to connect you to GA’s sales team. Worth exploring?"
   - trigger: "/prospect"
     form: |
-      Hey [[Name]] - did my email from last week make it through? Would love to connect you to Jill. Thanks!
+      Hey [[Name]] - did my email from last week make it through? Would love to connect you to the team. Thanks!
 
       jesse
 
